@@ -1,18 +1,29 @@
-<h1> #### REFERENCE #### </h1>
+<h4> Reference </h4>
 If this dataset is useful for your work, please cite our paper.
 
+<code>
+@article{han2020deep,
+title={DeepSemanticHPPC: Hypothesis-based Planning over Uncertain Semantic Point Clouds},
+author={Han, Yutao and Lin, Hubert and Banfi, Jacopo and Campbell, Mark and Bala, Kavita},
+journal={ICRA},
+year={2020}
+}
+</code>
 
-<h1> #### DATASET #### </h1>
+
+<h4> Dataset </h4>
 Our dataset construction is <a href="DeepSemanticHPPC_segmentation_dataset_Sep15_2019.zip"> here. </a>
 
-- Download coco panoptic train/val 2017.
-- images_to_keep.txt lists training images of unstructured outdoor scenes (see paper)
-	- If interested, mscoco-train2017-resnet50-places365.txt lists output of Places365 classifier
-- Convert segmentation labels using navigation_outdoor_categories-coco_panoptic_to_new_cats.txt
-- Human-readable category merging details given in navigation_outdoor_categories-merge_details.txt
-- Converted segmentation label id to label name given in navigation_outdoor_categories.txt
+<ul>
+	<li> Download coco panoptic train/val 2017. </li>
+	<li> images_to_keep.txt lists training images of unstructured outdoor scenes (see paper) </li>
+	<li> If interested, mscoco-train2017-resnet50-places365.txt lists output of Places365 classifier </li>
+	<li> Convert segmentation labels using navigation_outdoor_categories-coco_panoptic_to_new_cats.txt </li>
+	<li> Human-readable category merging details given in navigation_outdoor_categories-merge_details.txt </li>
+	<li> Converted segmentation label id to label name given in navigation_outdoor_categories.txt </li>
+</ul>
 
-<h1> #### NETWORK #### </h1>
+<h4> Network </h4>
 Details to reproduce the network used in our paper are given here.
 
 For our network architecture, we use DeepLabv3+ with Xception65 backbone
