@@ -1,0 +1,141 @@
+PERSON: 
+  person
+NAVIGABLE SURFACES OUTDOOR: 
+  rock-merged
+  gravel
+  platform
+  railroad
+  river
+  road
+  sand
+  sea
+  snow
+  pavement-merged
+  mountain-merged
+  grass-merged
+  dirt-merged
+  water-other
+  flower
+  tree-merged
+  playingfield
+OBSTACLES_FIXED (MERGED): 
+  stairs
+  wall-brick
+  wall-stone
+  wall-tile
+  wall-wood
+  fire hydrant
+  stop sign
+  parking meter
+  bench
+  chair
+  couch
+  potted plant
+  bed
+  dining table
+  toilet
+  cardboard
+  counter
+  curtain
+  door-stuff
+  house
+  shelf
+  fence-merged
+  table-merged
+  building-other-merged
+  wall-other-merged
+  net
+  cabinet-merged
+OBSTACLES_DYNAMIC_MANMADE (MERGED): 
+  skateboard
+  surfboard
+  bicycle
+  car
+  airplane
+  bus
+  train
+  truck
+  boat
+  skis
+  snowboard
+  motorcycle
+OBSTACLES_DYNAMIC_ANIMAL (MERGED): 
+  bird
+  cat
+  dog
+  horse
+  sheep
+  cow
+  elephant
+  bear
+  zebra
+  giraffe
+BACKGROUND (MERGED): 
+  sky-other-merged
+VOID (MERGED): 
+  teddy bear
+  kite
+  VOID
+  oven
+  keyboard
+  floor-other-merged
+  cup
+  tv
+  backpack
+  orange
+  laptop
+  blanket
+  vase
+  spoon
+  banner
+  towel
+  baseball glove
+  frisbee
+  paper-merged
+  window-blind
+  clock
+  microwave
+  ceiling-merged
+  knife
+  tent
+  umbrella
+  toothbrush
+  sink
+  floor-wood
+  baseball bat
+  sports ball
+  roof
+  pillow
+  apple
+  bridge
+  tennis racket
+  scissors
+  traffic light
+  banana
+  fork
+  donut
+  suitcase
+  cake
+  wine glass
+  carrot
+  mouse
+  hair drier
+  food-other-merged
+  rug-merged
+  toaster
+  bowl
+  book
+  tie
+  pizza
+  sandwich
+  fruit
+  handbag
+  cell phone
+  broccoli
+  refrigerator
+  mirror-stuff
+  window-other
+  remote
+  hot dog
+  light
+  bottle

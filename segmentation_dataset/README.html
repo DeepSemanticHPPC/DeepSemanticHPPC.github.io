@@ -1,0 +1,27 @@
+<h1> #### REFERENCE #### </h1>
+If this dataset is useful for your work, please cite our paper.
+
+
+<h1> #### DATASET #### </h1>
+Our dataset construction is <a href="DeepSemanticHPPC_segmentation_dataset_Sep15_2019.zip"> here. </a>
+
+- Download coco panoptic train/val 2017.
+- images_to_keep.txt lists training images of unstructured outdoor scenes (see paper)
+	- If interested, mscoco-train2017-resnet50-places365.txt lists output of Places365 classifier
+- Convert segmentation labels using navigation_outdoor_categories-coco_panoptic_to_new_cats.txt
+- Human-readable category merging details given in navigation_outdoor_categories-merge_details.txt
+- Converted segmentation label id to label name given in navigation_outdoor_categories.txt
+
+<h1> #### NETWORK #### </h1>
+Details to reproduce the network used in our paper are given here.
+
+For our network architecture, we use DeepLabv3+ with Xception65 backbone
+augmented with dropout in the middle and exit flow blocks for semantic
+segmentations.  ASPP atrous rates are set to 6,12,18 for output stride 16 and
+12,24,36 for output stride 8 as in \cite{deeplabv3plus2018}. Training uses
+output stride 16 while inference uses output stride 8.
+
+We initialize from network pretrained on ImageNet + MSCOCO + Pascal VOC, and
+train for 160000 iterations using SGD with momentum with batchsize 4 on our
+dataset.  Initial learning rate 0.01, momentum 0.9, and polynomial learning
+rate decay with power 0.9 are used.  Images are resized to 513x513.
