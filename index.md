@@ -8,7 +8,7 @@ This is the project page for DeepSemanticHPPC: Hypothesis-based Planning over Un
 
 ![setup0](./figs/setup_combined.png)
 
-![Pipeline](./figs/pipeline.jpg)
+![Pipeline](./figs/pipeline.png)
 
 # Links
 
