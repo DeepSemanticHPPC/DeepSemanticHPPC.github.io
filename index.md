@@ -4,10 +4,7 @@ layout: default
 
 This is the project page for DeepSemanticHPPC: Hypothesis-based Planning over Uncertain Semantic Point Clouds.
 
-![setup0](./figs/setup0real.jpg){:height=100}
-![setup1](./figs/setup1real.jpg){:height=100}
-![setup2](./figs/setup2real.jpg){:height=100}
-![setup3](./figs/setup3realstart.jpg){:height=100}
+![setup0](./figs/setup0real.jpg){:height=100px}![setup1](./figs/setup1real.jpg){:height=100px}![setup2](./figs/setup2real.jpg){:height=100px}![setup3](./figs/setup3realstart.jpg){:height=100px}
 <br>
 
 ![Pipeline](./figs/pipeline.jpg)
