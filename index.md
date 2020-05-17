@@ -4,28 +4,27 @@ layout: default
 
 This is the project page for DeepSemanticHPPC: Hypothesis-based Planning over Uncertain Semantic Point Clouds.
 
-<br>
-<img src="./figs/setup0real.jpg" height=100 alt="teaser_fig">
-<img src="./figs/setup1real.jpg" height=100 alt="teaser_fig">
-<img src="./figs/setup2real.jpg" height=100 alt="teaser_fig">
-<img src="./figs/setup3realstart.jpg" height=100 alt="teaser_fig">
+![setup0](./figs/setup0real.jpg){:height=100}
+![setup1](./figs/setup1real.jpg){:height=100}
+![setup2](./figs/setup2real.jpg){:height=100}
+![setup3](./figs/setup3realstart.jpg){:height=100}
 <br>
 
 ![Pipeline](./figs/pipeline.jpg)
 
 # Links
 
-## Paper and Slides
-[Paper](https://arxiv.org/abs/2003.03464)
-[(Coming soon!) Talk Slides](./)
+### Paper and Slides
+[Paper](https://arxiv.org/abs/2003.03464) <br>
+[(Coming soon!) Talk Slides](./) <br>
 
-## Demo and Code
-[(Coming soon!) Video Demo](./)
-[(Coming soon!) Code](./)
+### Demo and Code
+[(Coming soon!) Video Demo](./) <br>
+[(Coming soon!) Code](./) <br>
 
-## Datasets
-[Semantic Segmentation Dataset and Training Details](./segmentation_dataset/README.html)
-[(Coming soon!) Real-world Point Cloud Environments](./)
+### Datasets
+[Semantic Segmentation Dataset and Training Details](./segmentation_dataset/README.html) <br>
+[(Coming soon!) Real-world Point Cloud Environments](./) <br>
 
 # Citation
 
