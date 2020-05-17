@@ -14,7 +14,7 @@ This is the project page for DeepSemanticHPPC: Hypothesis-based Planning over Un
 
 ### Paper and Slides
 [Paper](https://arxiv.org/abs/2003.03464) <br>
-[(Coming soon!) Talk Slides](./) <br>
+[Talk Slides](./slides_dark_theme.pdf) <br>
 
 ### Demo and Code
 [(Coming soon!) Video Demo](./) <br>
