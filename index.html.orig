@@ -36,7 +36,7 @@ If our work is useful to you, please consider citing our paper.
 <pre><code>
 @article{dshppc2020,
 title={DeepSemanticHPPC: Hypothesis-based Planning over Uncertain Semantic Point Clouds},
-author={Han, Yutao and Lin, Hubert and Banfi, Jacopo and Campbell, Mark and Bala, Kavita},
+author={Han, Yutao and Lin, Hubert and Banfi, Jacopo and Bala, Kavita, and Campbell, Mark},
 journal={ICRA},
 year={2020}
 }
